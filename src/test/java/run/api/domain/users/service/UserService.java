@@ -1,6 +1,6 @@
-package com.run.api.domain.users.service;
+package run.api.domain.users.service;
 
-import com.run.api.global.dto.user;
+import run.api.global.dto.user;
 
 import java.util.List;
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
-<mapper namespace="com.run.api.global.dao.UserMapper">
-    <select id="getUserList" resultType="com.run.api.global.dto.user">
-        SELECT * FROM users;
-    </select>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="run.api.domain.users.mapper.UserMapper">
+    <insert id="saveUser" parameterType="run.api.domain.users.vo.UserVo">
+        INSERT INTO account
+        (nickname, email, password, m_name, phone_num)
+        VALUES(#{nickname},#{email},#{password},#{m_name},#{phone_num});
+    </insert>
 </mapper>

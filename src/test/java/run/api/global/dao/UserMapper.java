@@ -1,8 +1,8 @@
-package com.run.api.global.dao;
+package run.api.global.dao;
 
-import com.run.api.global.dto.user;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
+import run.api.global.dto.user;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.run.api.domain.users.service;
+package run.api.domain.users.service;
 
-import com.run.api.global.dao.UserMapper;
-import com.run.api.global.dto.user;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import run.api.global.dao.UserMapper;
+import run.api.global.dto.user;
 
 import java.util.List;
 

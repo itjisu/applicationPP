@@ -1,4 +1,4 @@
-package com.run.api.global.dto;
+package run.api.global.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
